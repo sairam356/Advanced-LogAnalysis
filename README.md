@@ -60,7 +60,7 @@ Response Generation: Delivers the final response based on the processedquery.
 
 
 
-<img width="547" alt="Screenshot 2024-04-21 000518" src="https://github.com/sairam356/LogAnalysis/assets/18064754/65cd7730-c7e3-4f98-b960-c2ceba907926">
-![output_loading_emddingInfo](https://github.com/sairam356/LogAnalysis/assets/18064754/6bae9698-86b6-418e-ae07-0df5c00c66c9)
+
+![output_loading_emddingInfo](https://github.com/sairam356/LogAnalysis/assets/18064754/b09ae79d-9ca5-45b6-a050-f70b13c3351f)
 
 
