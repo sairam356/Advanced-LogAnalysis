@@ -52,6 +52,8 @@ Load QA Chain: Processes the retrieved data through LangChain'sloadQAStuffChain.
 
 Response Generation: Delivers the final response based on the processedquery.
 
+# Output ScreenShots :
+
 
 <img width="511" alt="Screenshot 2024-04-21 000419" src="https://github.com/sairam356/LogAnalysis/assets/18064754/f9c63bb7-43c5-4aef-8bcb-62bc00bad224">
 
