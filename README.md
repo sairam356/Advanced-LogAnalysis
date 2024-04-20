@@ -59,8 +59,8 @@ Response Generation: Delivers the final response based on the processedquery.
 <img width="556" alt="Screenshot 2024-04-21 000357" src="https://github.com/sairam356/LogAnalysis/assets/18064754/b7acaeb7-d112-47cf-bb2d-ea459d69a10f">!
 
 
-[output_loading_emddingInfo](https://github.com/sairam356/LogAnalysis/assets/18064754/d83f06b4-45d2-403a-9550-83bd69bfbae4)
 
-
+<img width="547" alt="Screenshot 2024-04-21 000518" src="https://github.com/sairam356/LogAnalysis/assets/18064754/65cd7730-c7e3-4f98-b960-c2ceba907926">
+![output_loading_emddingInfo](https://github.com/sairam356/LogAnalysis/assets/18064754/6bae9698-86b6-418e-ae07-0df5c00c66c9)
 
 
