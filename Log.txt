@@ -1,0 +1,14 @@
+2024-04-12T08:15:01.003Z INFO  [server] Server started successfully.
+2024-04-12T08:16:25.146Z WARN  [cache] Cache miss: key='session_data'
+2024-04-12T08:16:25.152Z ERROR [database] Failed to connect to database: timeout
+2024-04-12T08:17:42.765Z INFO  [auth] User login successful: user_id=1234
+2024-04-12T08:18:05.324Z DEBUG [http] GET /api/status - 200 OK
+2024-04-12T08:19:00.001Z INFO  [cron] Daily backup job started.
+2024-04-12T08:19:03.456Z ERROR [backup] Backup failed: insufficient disk space
+2024-04-12T08:20:11.234Z INFO  [email] Email sent to user@example.com
+2024-04-12T08:21:47.589Z DEBUG [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T08:22:55.605Z WARN  [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T08:23:10.789Z INFO  [server] Memory usage: 75%
+2024-04-12T08:24:00.007Z INFO  [cron] Daily report generation completed.
+2024-04-12T08:24:59.999Z INFO  [shutdown] Server shutdown initiated.
+2024-04-12T08:25:00.001Z INFO  [server] Server stopped successfully.
