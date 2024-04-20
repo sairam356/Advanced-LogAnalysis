@@ -1,5 +1,5 @@
-# LogAnalysis
-# LogAnalysis using open AI LLM Application
+# Advanced LogAnalysis
+# Advanced LogAnalysis using open AI LLM Application
 
 
 The application leverages several advanced technologies, including Pinecone for vector storage, OpenAI for embeddings, LangChain for query analysis, and the RAQ technique for optimized querying.
