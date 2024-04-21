@@ -18,7 +18,7 @@ OpenAI:  Generation of embeddings for text data.
 
 LangChain: Processing and analyzing query responses.
 
-RAQ Technique: Enhances the querying process for efficiency.
+RAG Technique: Enhances the querying process for efficiency.
 
  
 
