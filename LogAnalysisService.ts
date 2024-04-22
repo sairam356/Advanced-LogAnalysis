@@ -122,27 +122,4 @@ export class LogAnalysisService {
   }
 
 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-/*
-
-Scripts\activate
-jupyter lab
-https://github.com/langchain-ai/langchainjs
-https://langchainjs-docs-8ug8lusi0-langchain.vercel.app/docs/use_cases/tool_use/
-https://gpt4all.io/index.html
-https://blog.timleers.com/a-stupidly-minimal-llm-api-starterkit-deploy-llm-endpoints-in-a-minute-with-langchain-and-fastapi
-https://github.com/AI-LLM-Bootcamp/1024-langchain-plus-todo-app
-https://www.npmjs.com/package/langchain
-https://llama-node.vercel.app/docs/backends/llm-rs/inference */
