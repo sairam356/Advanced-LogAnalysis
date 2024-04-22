@@ -1,14 +1,1000 @@
-2024-04-12T08:15:01.003Z INFO  [server] Server started successfully.
-2024-04-12T08:16:25.146Z WARN  [cache] Cache miss: key='session_data'
-2024-04-12T08:16:25.152Z ERROR [database] Failed to connect to database: timeout
-2024-04-12T08:17:42.765Z INFO  [auth] User login successful: user_id=1234
-2024-04-12T08:18:05.324Z DEBUG [http] GET /api/status - 200 OK
-2024-04-12T08:19:00.001Z INFO  [cron] Daily backup job started.
-2024-04-12T08:19:03.456Z ERROR [backup] Backup failed: insufficient disk space
-2024-04-12T08:20:11.234Z INFO  [email] Email sent to user@example.com
-2024-04-12T08:21:47.589Z DEBUG [http] POST /api/upload - 500 Internal Server Error
-2024-04-12T08:22:55.605Z WARN  [security] Suspicious login attempt detected from IP 192.168.1.10
-2024-04-12T08:23:10.789Z INFO  [server] Memory usage: 75%
-2024-04-12T08:24:00.007Z INFO  [cron] Daily report generation completed.
-2024-04-12T08:24:59.999Z INFO  [shutdown] Server shutdown initiated.
-2024-04-12T08:25:00.001Z INFO  [server] Server stopped successfully.
+2024-04-12T08:16:33.003Z INFO [security] Daily backup job started.
+2024-04-12T08:17:03.003Z ERROR [email] Server shutdown initiated.
+2024-04-12T08:18:39.003Z DEBUG [auth] Server started successfully.
+2024-04-12T08:18:46.003Z DEBUG [http] Cache miss: key='session_data'
+2024-04-12T08:18:54.003Z DEBUG [security] GET /api/status - 200 OK
+2024-04-12T08:19:53.003Z WARN [cron] Daily backup job started.
+2024-04-12T08:21:25.003Z INFO [cache] GET /api/status - 200 OK
+2024-04-12T08:23:12.003Z ERROR [cron] Daily backup job started.
+2024-04-12T08:23:27.003Z DEBUG [backup] Daily backup job started.
+2024-04-12T08:24:52.003Z ERROR [cron] Email sent to user@example.com
+2024-04-12T08:26:05.003Z DEBUG [database] Daily backup job started.
+2024-04-12T08:27:41.003Z DEBUG [http] GET /api/status - 200 OK
+2024-04-12T08:28:50.003Z DEBUG [cache] Backup failed: insufficient disk space
+2024-04-12T08:29:14.003Z ERROR [cron] Memory usage: 75%
+2024-04-12T08:30:08.003Z DEBUG [security] Daily backup job started.
+2024-04-12T08:31:08.003Z ERROR [database] Server shutdown initiated.
+2024-04-12T08:31:28.003Z ERROR [database] Cache miss: key='session_data'
+2024-04-12T08:32:51.003Z ERROR [server] Server shutdown initiated.
+2024-04-12T08:33:26.003Z WARN [backup] User login successful: user_id=1234
+2024-04-12T08:33:35.003Z ERROR [server] Backup failed: insufficient disk space
+2024-04-12T08:34:33.003Z INFO [database] Failed to connect to database: timeout
+2024-04-12T08:35:33.003Z DEBUG [email] Daily backup job started.
+2024-04-12T08:37:33.003Z DEBUG [cache] Cache miss: key='session_data'
+2024-04-12T08:38:31.003Z WARN [server] POST /api/upload - 500 Internal Server Error
+2024-04-12T08:40:24.003Z DEBUG [security] Failed to connect to database: timeout
+2024-04-12T08:42:05.003Z WARN [database] Memory usage: 75%
+2024-04-12T08:42:47.003Z WARN [database] Server shutdown initiated.
+2024-04-12T08:43:12.003Z DEBUG [cache] Server started successfully.
+2024-04-12T08:43:58.003Z DEBUG [server] Server stopped successfully.
+2024-04-12T08:44:28.003Z WARN [server] Server started successfully.
+2024-04-12T08:45:51.003Z DEBUG [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T08:46:32.003Z ERROR [database] Memory usage: 75%
+2024-04-12T08:48:20.003Z ERROR [cache] Email sent to user@example.com
+2024-04-12T08:48:43.003Z INFO [backup] Email sent to user@example.com
+2024-04-12T08:50:30.003Z INFO [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T08:51:55.003Z INFO [shutdown] Email sent to user@example.com
+2024-04-12T08:52:47.003Z DEBUG [shutdown] User login successful: user_id=1234
+2024-04-12T08:53:55.003Z ERROR [cron] Email sent to user@example.com
+2024-04-12T08:54:03.003Z INFO [cache] Email sent to user@example.com
+2024-04-12T08:55:29.003Z DEBUG [email] Daily report generation completed.
+2024-04-12T08:56:10.003Z DEBUG [backup] Server started successfully.
+2024-04-12T08:56:39.003Z INFO [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T08:58:19.003Z DEBUG [auth] Daily report generation completed.
+2024-04-12T08:59:41.003Z WARN [server] Failed to connect to database: timeout
+2024-04-12T09:01:25.003Z INFO [security] Server started successfully.
+2024-04-12T09:02:53.003Z ERROR [backup] Memory usage: 75%
+2024-04-12T09:03:48.003Z ERROR [auth] Daily backup job started.
+2024-04-12T09:04:19.003Z INFO [auth] POST /api/upload - 500 Internal Server Error
+2024-04-12T09:05:33.003Z WARN [email] Email sent to user@example.com
+2024-04-12T09:07:20.003Z WARN [security] Backup failed: insufficient disk space
+2024-04-12T09:08:35.003Z WARN [cache] Daily backup job started.
+2024-04-12T09:08:43.003Z INFO [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T09:09:04.003Z WARN [backup] Daily backup job started.
+2024-04-12T09:09:16.003Z WARN [security] User login successful: user_id=1234
+2024-04-12T09:10:07.003Z ERROR [security] User login successful: user_id=1234
+2024-04-12T09:11:44.003Z INFO [server] Memory usage: 75%
+2024-04-12T09:11:57.003Z WARN [security] POST /api/upload - 500 Internal Server Error
+2024-04-12T09:12:34.003Z ERROR [auth] Backup failed: insufficient disk space
+2024-04-12T09:13:20.003Z INFO [cron] User login successful: user_id=1234
+2024-04-12T09:15:05.003Z DEBUG [shutdown] Server started successfully.
+2024-04-12T09:16:04.003Z INFO [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T09:17:47.003Z WARN [security] GET /api/status - 200 OK
+2024-04-12T09:19:08.003Z ERROR [backup] Server stopped successfully.
+2024-04-12T09:19:56.003Z WARN [auth] Server shutdown initiated.
+2024-04-12T09:21:46.003Z ERROR [email] Cache miss: key='session_data'
+2024-04-12T09:23:11.003Z INFO [database] Server stopped successfully.
+2024-04-12T09:23:29.003Z WARN [security] Memory usage: 75%
+2024-04-12T09:23:55.003Z DEBUG [security] Server started successfully.
+2024-04-12T09:24:20.003Z ERROR [cron] Backup failed: insufficient disk space
+2024-04-12T09:26:01.003Z DEBUG [security] Cache miss: key='session_data'
+2024-04-12T09:26:45.003Z INFO [security] Cache miss: key='session_data'
+2024-04-12T09:27:14.003Z WARN [server] POST /api/upload - 500 Internal Server Error
+2024-04-12T09:27:44.003Z INFO [backup] Email sent to user@example.com
+2024-04-12T09:29:39.003Z DEBUG [email] GET /api/status - 200 OK
+2024-04-12T09:30:49.003Z DEBUG [server] Server started successfully.
+2024-04-12T09:30:57.003Z DEBUG [email] Server shutdown initiated.
+2024-04-12T09:32:39.003Z WARN [cron] Memory usage: 75%
+2024-04-12T09:33:13.003Z WARN [security] Server started successfully.
+2024-04-12T09:33:26.003Z DEBUG [http] Email sent to user@example.com
+2024-04-12T09:33:31.003Z ERROR [cache] Server shutdown initiated.
+2024-04-12T09:33:45.003Z ERROR [auth] GET /api/status - 200 OK
+2024-04-12T09:35:42.003Z WARN [shutdown] Cache miss: key='session_data'
+2024-04-12T09:36:11.003Z ERROR [auth] Server shutdown initiated.
+2024-04-12T09:36:32.003Z INFO [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T09:36:48.003Z ERROR [backup] GET /api/status - 200 OK
+2024-04-12T09:37:10.003Z DEBUG [http] Email sent to user@example.com
+2024-04-12T09:38:38.003Z ERROR [security] GET /api/status - 200 OK
+2024-04-12T09:39:22.003Z ERROR [auth] User login successful: user_id=1234
+2024-04-12T09:39:52.003Z INFO [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T09:41:43.003Z DEBUG [shutdown] Daily report generation completed.
+2024-04-12T09:43:42.003Z INFO [auth] POST /api/upload - 500 Internal Server Error
+2024-04-12T09:45:28.003Z DEBUG [server] Email sent to user@example.com
+2024-04-12T09:46:29.003Z INFO [shutdown] GET /api/status - 200 OK
+2024-04-12T09:46:34.003Z ERROR [security] User login successful: user_id=1234
+2024-04-12T09:48:21.003Z INFO [backup] Daily report generation completed.
+2024-04-12T09:49:37.003Z INFO [server] Cache miss: key='session_data'
+2024-04-12T09:50:11.003Z DEBUG [http] Failed to connect to database: timeout
+2024-04-12T09:51:24.003Z DEBUG [cron] Failed to connect to database: timeout
+2024-04-12T09:51:48.003Z WARN [backup] Server started successfully.
+2024-04-12T09:52:53.003Z WARN [server] Failed to connect to database: timeout
+2024-04-12T09:53:32.003Z INFO [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T09:53:36.003Z INFO [shutdown] GET /api/status - 200 OK
+2024-04-12T09:54:19.003Z WARN [database] Memory usage: 75%
+2024-04-12T09:55:58.003Z INFO [http] Daily report generation completed.
+2024-04-12T09:56:32.003Z INFO [database] Failed to connect to database: timeout
+2024-04-12T09:57:50.003Z INFO [shutdown] Email sent to user@example.com
+2024-04-12T09:58:21.003Z ERROR [cache] User login successful: user_id=1234
+2024-04-12T09:59:55.003Z WARN [database] Memory usage: 75%
+2024-04-12T10:00:43.003Z DEBUG [email] Email sent to user@example.com
+2024-04-12T10:01:56.003Z INFO [email] Email sent to user@example.com
+2024-04-12T10:03:48.003Z INFO [cron] Backup failed: insufficient disk space
+2024-04-12T10:04:23.003Z WARN [http] Failed to connect to database: timeout
+2024-04-12T10:06:23.003Z DEBUG [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T10:07:54.003Z ERROR [backup] Cache miss: key='session_data'
+2024-04-12T10:09:35.003Z DEBUG [cron] Server started successfully.
+2024-04-12T10:11:14.003Z INFO [email] Memory usage: 75%
+2024-04-12T10:12:13.003Z DEBUG [server] User login successful: user_id=1234
+2024-04-12T10:14:04.003Z DEBUG [security] Cache miss: key='session_data'
+2024-04-12T10:15:04.003Z INFO [database] Server shutdown initiated.
+2024-04-12T10:16:15.003Z WARN [security] User login successful: user_id=1234
+2024-04-12T10:17:15.003Z WARN [server] Server started successfully.
+2024-04-12T10:18:05.003Z DEBUG [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T10:19:55.003Z DEBUG [server] Cache miss: key='session_data'
+2024-04-12T10:20:51.003Z INFO [server] Daily backup job started.
+2024-04-12T10:21:48.003Z INFO [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T10:23:31.003Z ERROR [shutdown] Backup failed: insufficient disk space
+2024-04-12T10:24:42.003Z DEBUG [http] GET /api/status - 200 OK
+2024-04-12T10:25:34.003Z DEBUG [cron] GET /api/status - 200 OK
+2024-04-12T10:26:03.003Z INFO [server] Cache miss: key='session_data'
+2024-04-12T10:26:21.003Z ERROR [cron] Server started successfully.
+2024-04-12T10:27:00.003Z DEBUG [auth] Server stopped successfully.
+2024-04-12T10:27:07.003Z DEBUG [cron] GET /api/status - 200 OK
+2024-04-12T10:28:07.003Z DEBUG [shutdown] Backup failed: insufficient disk space
+2024-04-12T10:29:14.003Z ERROR [cache] Daily report generation completed.
+2024-04-12T10:31:08.003Z ERROR [database] Backup failed: insufficient disk space
+2024-04-12T10:32:08.003Z INFO [http] Failed to connect to database: timeout
+2024-04-12T10:33:19.003Z INFO [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T10:34:11.003Z ERROR [backup] Backup failed: insufficient disk space
+2024-04-12T10:35:24.003Z ERROR [database] Memory usage: 75%
+2024-04-12T10:36:09.003Z DEBUG [auth] GET /api/status - 200 OK
+2024-04-12T10:36:18.003Z DEBUG [email] GET /api/status - 200 OK
+2024-04-12T10:37:59.003Z INFO [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T10:38:57.003Z INFO [server] Failed to connect to database: timeout
+2024-04-12T10:40:07.003Z INFO [shutdown] Backup failed: insufficient disk space
+2024-04-12T10:41:45.003Z INFO [cache] Email sent to user@example.com
+2024-04-12T10:42:59.003Z WARN [http] Daily report generation completed.
+2024-04-12T10:44:34.003Z WARN [backup] GET /api/status - 200 OK
+2024-04-12T10:45:45.003Z ERROR [database] Backup failed: insufficient disk space
+2024-04-12T10:46:07.003Z ERROR [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T10:47:24.003Z INFO [email] Email sent to user@example.com
+2024-04-12T10:49:12.003Z WARN [backup] Daily report generation completed.
+2024-04-12T10:49:32.003Z WARN [auth] User login successful: user_id=1234
+2024-04-12T10:51:11.003Z ERROR [database] Daily backup job started.
+2024-04-12T10:52:10.003Z WARN [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T10:52:18.003Z DEBUG [email] Daily backup job started.
+2024-04-12T10:52:43.003Z ERROR [cron] Email sent to user@example.com
+2024-04-12T10:54:37.003Z ERROR [backup] Daily backup job started.
+2024-04-12T10:56:31.003Z INFO [database] Cache miss: key='session_data'
+2024-04-12T10:57:50.003Z DEBUG [cron] Memory usage: 75%
+2024-04-12T10:58:20.003Z WARN [cache] Backup failed: insufficient disk space
+2024-04-12T10:59:46.003Z ERROR [security] Cache miss: key='session_data'
+2024-04-12T11:00:39.003Z INFO [backup] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T11:01:18.003Z WARN [server] Daily report generation completed.
+2024-04-12T11:02:05.003Z WARN [email] Email sent to user@example.com
+2024-04-12T11:02:09.003Z ERROR [auth] Failed to connect to database: timeout
+2024-04-12T11:03:03.003Z INFO [auth] Email sent to user@example.com
+2024-04-12T11:04:57.003Z WARN [email] Failed to connect to database: timeout
+2024-04-12T11:05:25.003Z INFO [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T11:06:58.003Z DEBUG [server] Daily backup job started.
+2024-04-12T11:08:44.003Z ERROR [http] Server stopped successfully.
+2024-04-12T11:10:12.003Z DEBUG [cache] User login successful: user_id=1234
+2024-04-12T11:11:47.003Z DEBUG [http] Memory usage: 75%
+2024-04-12T11:13:40.003Z WARN [server] Failed to connect to database: timeout
+2024-04-12T11:15:14.003Z INFO [database] Server stopped successfully.
+2024-04-12T11:17:01.003Z ERROR [database] Cache miss: key='session_data'
+2024-04-12T11:18:13.003Z DEBUG [http] User login successful: user_id=1234
+2024-04-12T11:19:34.003Z WARN [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T11:21:15.003Z INFO [cron] Server stopped successfully.
+2024-04-12T11:21:36.003Z DEBUG [database] Failed to connect to database: timeout
+2024-04-12T11:23:26.003Z ERROR [email] Server stopped successfully.
+2024-04-12T11:23:58.003Z ERROR [security] User login successful: user_id=1234
+2024-04-12T11:24:13.003Z INFO [server] Backup failed: insufficient disk space
+2024-04-12T11:26:06.003Z WARN [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T11:27:43.003Z ERROR [http] Memory usage: 75%
+2024-04-12T11:29:01.003Z INFO [email] Failed to connect to database: timeout
+2024-04-12T11:30:54.003Z DEBUG [server] User login successful: user_id=1234
+2024-04-12T11:32:54.003Z DEBUG [security] Email sent to user@example.com
+2024-04-12T11:32:55.003Z WARN [database] Server stopped successfully.
+2024-04-12T11:34:41.003Z ERROR [shutdown] Server started successfully.
+2024-04-12T11:36:27.003Z WARN [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T11:37:31.003Z DEBUG [auth] User login successful: user_id=1234
+2024-04-12T11:38:56.003Z WARN [cache] GET /api/status - 200 OK
+2024-04-12T11:40:30.003Z ERROR [cache] Daily backup job started.
+2024-04-12T11:42:10.003Z WARN [server] User login successful: user_id=1234
+2024-04-12T11:43:22.003Z DEBUG [shutdown] Memory usage: 75%
+2024-04-12T11:44:50.003Z ERROR [cache] Server stopped successfully.
+2024-04-12T11:46:01.003Z ERROR [shutdown] Server started successfully.
+2024-04-12T11:47:16.003Z WARN [cache] Email sent to user@example.com
+2024-04-12T11:48:04.003Z INFO [server] Daily backup job started.
+2024-04-12T11:48:50.003Z ERROR [email] Backup failed: insufficient disk space
+2024-04-12T11:49:05.003Z DEBUG [backup] Backup failed: insufficient disk space
+2024-04-12T11:50:47.003Z DEBUG [backup] Memory usage: 75%
+2024-04-12T11:52:24.003Z DEBUG [http] GET /api/status - 200 OK
+2024-04-12T11:53:41.003Z DEBUG [shutdown] Memory usage: 75%
+2024-04-12T11:55:27.003Z WARN [auth] Failed to connect to database: timeout
+2024-04-12T11:55:39.003Z ERROR [http] Server started successfully.
+2024-04-12T11:55:54.003Z INFO [database] Server started successfully.
+2024-04-12T11:57:38.003Z WARN [auth] POST /api/upload - 500 Internal Server Error
+2024-04-12T11:58:52.003Z INFO [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T11:58:53.003Z WARN [database] Server stopped successfully.
+2024-04-12T11:59:14.003Z WARN [security] Email sent to user@example.com
+2024-04-12T12:00:09.003Z WARN [backup] Daily backup job started.
+2024-04-12T12:01:25.003Z INFO [security] Server started successfully.
+2024-04-12T12:03:13.003Z DEBUG [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T12:03:25.003Z DEBUG [email] Daily report generation completed.
+2024-04-12T12:04:21.003Z ERROR [http] GET /api/status - 200 OK
+2024-04-12T12:04:56.003Z INFO [database] GET /api/status - 200 OK
+2024-04-12T12:05:11.003Z DEBUG [security] Daily report generation completed.
+2024-04-12T12:06:14.003Z ERROR [database] Failed to connect to database: timeout
+2024-04-12T12:07:18.003Z DEBUG [server] Server started successfully.
+2024-04-12T12:09:03.003Z WARN [shutdown] Memory usage: 75%
+2024-04-12T12:10:35.003Z WARN [backup] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T12:11:22.003Z DEBUG [cron] Memory usage: 75%
+2024-04-12T12:11:42.003Z DEBUG [http] Backup failed: insufficient disk space
+2024-04-12T12:13:38.003Z DEBUG [cron] Daily report generation completed.
+2024-04-12T12:13:46.003Z ERROR [http] Memory usage: 75%
+2024-04-12T12:14:55.003Z WARN [security] User login successful: user_id=1234
+2024-04-12T12:15:02.003Z INFO [email] Memory usage: 75%
+2024-04-12T12:16:13.003Z INFO [email] GET /api/status - 200 OK
+2024-04-12T12:16:56.003Z ERROR [server] Failed to connect to database: timeout
+2024-04-12T12:18:48.003Z INFO [server] Backup failed: insufficient disk space
+2024-04-12T12:20:38.003Z DEBUG [http] Failed to connect to database: timeout
+2024-04-12T12:22:18.003Z DEBUG [http] GET /api/status - 200 OK
+2024-04-12T12:24:14.003Z INFO [database] GET /api/status - 200 OK
+2024-04-12T12:25:42.003Z DEBUG [auth] User login successful: user_id=1234
+2024-04-12T12:27:31.003Z WARN [backup] GET /api/status - 200 OK
+2024-04-12T12:27:42.003Z DEBUG [auth] Cache miss: key='session_data'
+2024-04-12T12:28:01.003Z INFO [cron] Daily backup job started.
+2024-04-12T12:28:49.003Z ERROR [http] Server shutdown initiated.
+2024-04-12T12:28:55.003Z INFO [security] Backup failed: insufficient disk space
+2024-04-12T12:30:23.003Z ERROR [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T12:30:35.003Z INFO [http] Daily report generation completed.
+2024-04-12T12:32:04.003Z WARN [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T12:33:23.003Z INFO [cron] User login successful: user_id=1234
+2024-04-12T12:35:07.003Z WARN [auth] Server started successfully.
+2024-04-12T12:35:15.003Z DEBUG [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T12:36:12.003Z ERROR [database] Daily report generation completed.
+2024-04-12T12:36:53.003Z ERROR [cron] Server started successfully.
+2024-04-12T12:37:27.003Z INFO [auth] Email sent to user@example.com
+2024-04-12T12:39:14.003Z WARN [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T12:39:59.003Z DEBUG [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T12:41:36.003Z WARN [shutdown] Server started successfully.
+2024-04-12T12:42:13.003Z WARN [email] Daily report generation completed.
+2024-04-12T12:42:44.003Z DEBUG [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T12:44:15.003Z ERROR [email] GET /api/status - 200 OK
+2024-04-12T12:44:48.003Z ERROR [database] Server started successfully.
+2024-04-12T12:45:59.003Z ERROR [security] Memory usage: 75%
+2024-04-12T12:46:59.003Z INFO [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T12:47:10.003Z ERROR [cache] Server started successfully.
+2024-04-12T12:48:09.003Z INFO [auth] GET /api/status - 200 OK
+2024-04-12T12:49:31.003Z INFO [cron] Server started successfully.
+2024-04-12T12:50:19.003Z INFO [security] Email sent to user@example.com
+2024-04-12T12:52:12.003Z ERROR [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T12:52:30.003Z ERROR [email] Server stopped successfully.
+2024-04-12T12:54:12.003Z WARN [database] GET /api/status - 200 OK
+2024-04-12T12:55:02.003Z INFO [auth] Server shutdown initiated.
+2024-04-12T12:55:55.003Z INFO [cron] Backup failed: insufficient disk space
+2024-04-12T12:57:08.003Z DEBUG [cron] GET /api/status - 200 OK
+2024-04-12T12:57:49.003Z INFO [cache] Daily report generation completed.
+2024-04-12T12:57:53.003Z INFO [database] Server started successfully.
+2024-04-12T12:59:48.003Z ERROR [http] GET /api/status - 200 OK
+2024-04-12T13:00:31.003Z DEBUG [email] Daily backup job started.
+2024-04-12T13:02:30.003Z ERROR [cache] User login successful: user_id=1234
+2024-04-12T13:02:59.003Z ERROR [cron] Email sent to user@example.com
+2024-04-12T13:04:00.003Z WARN [server] Server stopped successfully.
+2024-04-12T13:04:09.003Z ERROR [server] Server shutdown initiated.
+2024-04-12T13:04:12.003Z INFO [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T13:04:52.003Z DEBUG [http] Cache miss: key='session_data'
+2024-04-12T13:06:48.003Z WARN [shutdown] Server stopped successfully.
+2024-04-12T13:06:57.003Z DEBUG [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T13:08:05.003Z WARN [security] Server started successfully.
+2024-04-12T13:08:08.003Z WARN [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T13:09:16.003Z ERROR [security] Memory usage: 75%
+2024-04-12T13:09:46.003Z ERROR [cache] Backup failed: insufficient disk space
+2024-04-12T13:10:37.003Z DEBUG [security] Cache miss: key='session_data'
+2024-04-12T13:11:39.003Z INFO [http] User login successful: user_id=1234
+2024-04-12T13:12:51.003Z ERROR [cache] GET /api/status - 200 OK
+2024-04-12T13:13:15.003Z WARN [server] Backup failed: insufficient disk space
+2024-04-12T13:13:44.003Z DEBUG [security] Daily backup job started.
+2024-04-12T13:15:24.003Z DEBUG [shutdown] Server stopped successfully.
+2024-04-12T13:15:54.003Z ERROR [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T13:16:47.003Z INFO [security] Server shutdown initiated.
+2024-04-12T13:18:23.003Z DEBUG [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T13:19:16.003Z INFO [http] User login successful: user_id=1234
+2024-04-12T13:20:44.003Z ERROR [auth] Failed to connect to database: timeout
+2024-04-12T13:21:18.003Z ERROR [backup] Failed to connect to database: timeout
+2024-04-12T13:21:31.003Z INFO [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T13:23:26.003Z WARN [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T13:24:55.003Z WARN [http] Memory usage: 75%
+2024-04-12T13:25:05.003Z ERROR [server] Daily report generation completed.
+2024-04-12T13:26:21.003Z INFO [cron] Cache miss: key='session_data'
+2024-04-12T13:26:53.003Z DEBUG [email] Server started successfully.
+2024-04-12T13:28:43.003Z INFO [backup] Server shutdown initiated.
+2024-04-12T13:30:27.003Z INFO [backup] Email sent to user@example.com
+2024-04-12T13:31:10.003Z ERROR [cache] User login successful: user_id=1234
+2024-04-12T13:33:07.003Z INFO [server] Cache miss: key='session_data'
+2024-04-12T13:33:29.003Z DEBUG [http] User login successful: user_id=1234
+2024-04-12T13:34:20.003Z WARN [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T13:35:51.003Z INFO [backup] Backup failed: insufficient disk space
+2024-04-12T13:36:39.003Z WARN [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T13:37:16.003Z WARN [server] User login successful: user_id=1234
+2024-04-12T13:37:19.003Z ERROR [auth] User login successful: user_id=1234
+2024-04-12T13:37:44.003Z DEBUG [cron] Server shutdown initiated.
+2024-04-12T13:38:21.003Z ERROR [cron] Server shutdown initiated.
+2024-04-12T13:40:00.003Z DEBUG [cron] Server shutdown initiated.
+2024-04-12T13:41:10.003Z ERROR [shutdown] Daily backup job started.
+2024-04-12T13:41:37.003Z WARN [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T13:42:10.003Z ERROR [server] Cache miss: key='session_data'
+2024-04-12T13:44:09.003Z DEBUG [http] Daily backup job started.
+2024-04-12T13:46:01.003Z INFO [server] Daily report generation completed.
+2024-04-12T13:46:30.003Z DEBUG [shutdown] Daily backup job started.
+2024-04-12T13:47:12.003Z ERROR [auth] Server shutdown initiated.
+2024-04-12T13:49:01.003Z DEBUG [security] Memory usage: 75%
+2024-04-12T13:49:29.003Z INFO [email] User login successful: user_id=1234
+2024-04-12T13:51:18.003Z DEBUG [cache] Daily backup job started.
+2024-04-12T13:51:29.003Z WARN [http] Server stopped successfully.
+2024-04-12T13:52:22.003Z ERROR [cron] Daily report generation completed.
+2024-04-12T13:52:46.003Z ERROR [cron] User login successful: user_id=1234
+2024-04-12T13:53:41.003Z ERROR [email] User login successful: user_id=1234
+2024-04-12T13:55:32.003Z WARN [email] Backup failed: insufficient disk space
+2024-04-12T13:56:41.003Z WARN [cache] Server started successfully.
+2024-04-12T13:56:44.003Z WARN [shutdown] Daily backup job started.
+2024-04-12T13:56:47.003Z WARN [server] Backup failed: insufficient disk space
+2024-04-12T13:58:14.003Z WARN [shutdown] Server shutdown initiated.
+2024-04-12T13:59:09.003Z ERROR [cron] Daily report generation completed.
+2024-04-12T13:59:38.003Z WARN [server] Memory usage: 75%
+2024-04-12T13:59:47.003Z INFO [cache] Daily report generation completed.
+2024-04-12T14:01:02.003Z DEBUG [email] Server stopped successfully.
+2024-04-12T14:01:31.003Z INFO [security] Daily backup job started.
+2024-04-12T14:03:12.003Z DEBUG [security] Server started successfully.
+2024-04-12T14:04:02.003Z WARN [auth] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:04:54.003Z INFO [auth] Email sent to user@example.com
+2024-04-12T14:05:38.003Z ERROR [server] GET /api/status - 200 OK
+2024-04-12T14:06:54.003Z INFO [cron] Email sent to user@example.com
+2024-04-12T14:08:10.003Z WARN [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T14:08:48.003Z INFO [cache] Server stopped successfully.
+2024-04-12T14:10:46.003Z DEBUG [shutdown] Daily backup job started.
+2024-04-12T14:12:18.003Z ERROR [cache] Email sent to user@example.com
+2024-04-12T14:12:25.003Z ERROR [cron] Server shutdown initiated.
+2024-04-12T14:13:41.003Z DEBUG [auth] Memory usage: 75%
+2024-04-12T14:14:26.003Z INFO [cache] Daily report generation completed.
+2024-04-12T14:16:00.003Z WARN [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:17:58.003Z WARN [email] Failed to connect to database: timeout
+2024-04-12T14:19:52.003Z WARN [cache] Memory usage: 75%
+2024-04-12T14:20:49.003Z INFO [email] Server shutdown initiated.
+2024-04-12T14:22:17.003Z WARN [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T14:22:54.003Z ERROR [email] Email sent to user@example.com
+2024-04-12T14:23:55.003Z DEBUG [email] User login successful: user_id=1234
+2024-04-12T14:25:12.003Z WARN [cron] Cache miss: key='session_data'
+2024-04-12T14:25:49.003Z INFO [email] GET /api/status - 200 OK
+2024-04-12T14:26:21.003Z INFO [cache] Cache miss: key='session_data'
+2024-04-12T14:27:58.003Z WARN [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T14:29:41.003Z ERROR [cache] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:30:39.003Z INFO [http] Server stopped successfully.
+2024-04-12T14:31:25.003Z ERROR [security] GET /api/status - 200 OK
+2024-04-12T14:32:21.003Z WARN [auth] Backup failed: insufficient disk space
+2024-04-12T14:32:31.003Z DEBUG [auth] Server stopped successfully.
+2024-04-12T14:34:10.003Z INFO [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:34:57.003Z ERROR [cache] User login successful: user_id=1234
+2024-04-12T14:35:51.003Z WARN [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T14:37:42.003Z ERROR [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T14:39:20.003Z INFO [auth] Backup failed: insufficient disk space
+2024-04-12T14:39:58.003Z DEBUG [cache] Server shutdown initiated.
+2024-04-12T14:41:41.003Z DEBUG [server] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:41:53.003Z ERROR [shutdown] Cache miss: key='session_data'
+2024-04-12T14:43:35.003Z DEBUG [auth] Server stopped successfully.
+2024-04-12T14:43:49.003Z DEBUG [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:44:47.003Z DEBUG [auth] GET /api/status - 200 OK
+2024-04-12T14:46:19.003Z INFO [auth] Server started successfully.
+2024-04-12T14:48:07.003Z INFO [backup] Email sent to user@example.com
+2024-04-12T14:49:46.003Z WARN [security] Cache miss: key='session_data'
+2024-04-12T14:51:43.003Z DEBUG [cache] Cache miss: key='session_data'
+2024-04-12T14:53:19.003Z ERROR [cron] Daily report generation completed.
+2024-04-12T14:54:36.003Z INFO [email] Server started successfully.
+2024-04-12T14:54:41.003Z DEBUG [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T14:54:59.003Z INFO [email] Email sent to user@example.com
+2024-04-12T14:56:48.003Z ERROR [cache] Cache miss: key='session_data'
+2024-04-12T14:57:23.003Z INFO [cache] Cache miss: key='session_data'
+2024-04-12T14:58:03.003Z ERROR [security] Daily backup job started.
+2024-04-12T14:59:25.003Z WARN [security] Email sent to user@example.com
+2024-04-12T15:00:55.003Z WARN [server] Email sent to user@example.com
+2024-04-12T15:01:36.003Z INFO [http] Email sent to user@example.com
+2024-04-12T15:02:37.003Z INFO [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T15:03:18.003Z ERROR [backup] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T15:04:18.003Z DEBUG [auth] Email sent to user@example.com
+2024-04-12T15:05:49.003Z DEBUG [database] Email sent to user@example.com
+2024-04-12T15:05:56.003Z ERROR [cron] GET /api/status - 200 OK
+2024-04-12T15:07:53.003Z ERROR [auth] Server stopped successfully.
+2024-04-12T15:08:04.003Z ERROR [cron] Server started successfully.
+2024-04-12T15:09:21.003Z DEBUG [server] Backup failed: insufficient disk space
+2024-04-12T15:11:10.003Z DEBUG [server] POST /api/upload - 500 Internal Server Error
+2024-04-12T15:11:37.003Z ERROR [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T15:13:24.003Z ERROR [cache] Server stopped successfully.
+2024-04-12T15:13:41.003Z INFO [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T15:14:20.003Z WARN [cron] User login successful: user_id=1234
+2024-04-12T15:16:05.003Z ERROR [server] Server started successfully.
+2024-04-12T15:16:17.003Z ERROR [backup] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T15:17:52.003Z ERROR [backup] GET /api/status - 200 OK
+2024-04-12T15:19:52.003Z DEBUG [cache] POST /api/upload - 500 Internal Server Error
+2024-04-12T15:20:29.003Z DEBUG [auth] User login successful: user_id=1234
+2024-04-12T15:22:25.003Z WARN [server] GET /api/status - 200 OK
+2024-04-12T15:23:27.003Z DEBUG [cron] Cache miss: key='session_data'
+2024-04-12T15:24:30.003Z DEBUG [backup] Server started successfully.
+2024-04-12T15:26:17.003Z INFO [auth] Daily report generation completed.
+2024-04-12T15:27:01.003Z INFO [email] Email sent to user@example.com
+2024-04-12T15:27:23.003Z INFO [security] Server started successfully.
+2024-04-12T15:28:02.003Z DEBUG [http] Backup failed: insufficient disk space
+2024-04-12T15:29:26.003Z INFO [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T15:31:08.003Z ERROR [cache] Failed to connect to database: timeout
+2024-04-12T15:31:13.003Z INFO [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T15:32:48.003Z WARN [database] Backup failed: insufficient disk space
+2024-04-12T15:34:07.003Z WARN [shutdown] GET /api/status - 200 OK
+2024-04-12T15:35:10.003Z INFO [database] Memory usage: 75%
+2024-04-12T15:36:35.003Z ERROR [server] Failed to connect to database: timeout
+2024-04-12T15:38:07.003Z ERROR [shutdown] User login successful: user_id=1234
+2024-04-12T15:39:36.003Z DEBUG [auth] Server shutdown initiated.
+2024-04-12T15:39:57.003Z INFO [backup] Server shutdown initiated.
+2024-04-12T15:41:12.003Z WARN [cron] User login successful: user_id=1234
+2024-04-12T15:42:15.003Z INFO [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T15:44:02.003Z INFO [database] Server stopped successfully.
+2024-04-12T15:44:23.003Z DEBUG [cron] Email sent to user@example.com
+2024-04-12T15:44:26.003Z DEBUG [backup] Backup failed: insufficient disk space
+2024-04-12T15:45:59.003Z ERROR [backup] Daily backup job started.
+2024-04-12T15:46:10.003Z DEBUG [cron] Server stopped successfully.
+2024-04-12T15:46:11.003Z DEBUG [cron] Daily report generation completed.
+2024-04-12T15:48:02.003Z INFO [server] Daily report generation completed.
+2024-04-12T15:48:12.003Z ERROR [shutdown] Backup failed: insufficient disk space
+2024-04-12T15:50:06.003Z ERROR [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T15:51:44.003Z ERROR [database] Email sent to user@example.com
+2024-04-12T15:53:33.003Z INFO [backup] Cache miss: key='session_data'
+2024-04-12T15:53:34.003Z DEBUG [security] Server started successfully.
+2024-04-12T15:53:41.003Z DEBUG [cache] Server stopped successfully.
+2024-04-12T15:55:28.003Z ERROR [database] Failed to connect to database: timeout
+2024-04-12T15:56:39.003Z DEBUG [cron] Server started successfully.
+2024-04-12T15:57:28.003Z INFO [cron] User login successful: user_id=1234
+2024-04-12T15:59:26.003Z WARN [email] Daily backup job started.
+2024-04-12T16:00:55.003Z INFO [auth] Cache miss: key='session_data'
+2024-04-12T16:01:42.003Z WARN [shutdown] Server stopped successfully.
+2024-04-12T16:02:28.003Z WARN [auth] User login successful: user_id=1234
+2024-04-12T16:03:24.003Z DEBUG [cron] User login successful: user_id=1234
+2024-04-12T16:03:42.003Z WARN [server] Daily backup job started.
+2024-04-12T16:05:24.003Z DEBUG [database] Cache miss: key='session_data'
+2024-04-12T16:06:41.003Z ERROR [cron] Server stopped successfully.
+2024-04-12T16:07:41.003Z DEBUG [cron] Daily report generation completed.
+2024-04-12T16:09:37.003Z ERROR [shutdown] Email sent to user@example.com
+2024-04-12T16:10:51.003Z ERROR [server] Daily report generation completed.
+2024-04-12T16:12:31.003Z ERROR [cron] Email sent to user@example.com
+2024-04-12T16:13:44.003Z INFO [security] Daily report generation completed.
+2024-04-12T16:14:04.003Z WARN [database] Server shutdown initiated.
+2024-04-12T16:14:42.003Z ERROR [backup] Daily backup job started.
+2024-04-12T16:16:34.003Z INFO [shutdown] Server started successfully.
+2024-04-12T16:17:18.003Z ERROR [shutdown] Memory usage: 75%
+2024-04-12T16:18:35.003Z DEBUG [database] Server shutdown initiated.
+2024-04-12T16:19:15.003Z DEBUG [cache] GET /api/status - 200 OK
+2024-04-12T16:21:14.003Z INFO [backup] User login successful: user_id=1234
+2024-04-12T16:22:58.003Z WARN [security] Failed to connect to database: timeout
+2024-04-12T16:23:49.003Z ERROR [server] User login successful: user_id=1234
+2024-04-12T16:24:18.003Z DEBUG [cache] Email sent to user@example.com
+2024-04-12T16:25:40.003Z INFO [http] Daily report generation completed.
+2024-04-12T16:26:19.003Z INFO [security] Email sent to user@example.com
+2024-04-12T16:26:40.003Z ERROR [email] Daily backup job started.
+2024-04-12T16:28:04.003Z ERROR [shutdown] Server stopped successfully.
+2024-04-12T16:29:43.003Z DEBUG [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T16:30:45.003Z WARN [cron] Server started successfully.
+2024-04-12T16:31:49.003Z INFO [cron] GET /api/status - 200 OK
+2024-04-12T16:32:05.003Z INFO [security] Server started successfully.
+2024-04-12T16:32:42.003Z DEBUG [cache] User login successful: user_id=1234
+2024-04-12T16:33:13.003Z INFO [auth] Server started successfully.
+2024-04-12T16:33:33.003Z INFO [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T16:33:52.003Z WARN [email] Cache miss: key='session_data'
+2024-04-12T16:35:33.003Z DEBUG [http] Backup failed: insufficient disk space
+2024-04-12T16:36:18.003Z INFO [security] Server started successfully.
+2024-04-12T16:37:03.003Z WARN [database] Server stopped successfully.
+2024-04-12T16:37:09.003Z DEBUG [server] Backup failed: insufficient disk space
+2024-04-12T16:37:22.003Z WARN [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T16:38:31.003Z DEBUG [auth] Email sent to user@example.com
+2024-04-12T16:39:04.003Z DEBUG [auth] Daily backup job started.
+2024-04-12T16:41:04.003Z WARN [shutdown] Backup failed: insufficient disk space
+2024-04-12T16:41:56.003Z DEBUG [auth] GET /api/status - 200 OK
+2024-04-12T16:43:37.003Z ERROR [shutdown] Daily backup job started.
+2024-04-12T16:45:30.003Z ERROR [cache] Server stopped successfully.
+2024-04-12T16:45:38.003Z ERROR [email] Daily backup job started.
+2024-04-12T16:45:56.003Z DEBUG [database] GET /api/status - 200 OK
+2024-04-12T16:47:11.003Z INFO [cache] User login successful: user_id=1234
+2024-04-12T16:47:33.003Z WARN [email] Failed to connect to database: timeout
+2024-04-12T16:47:52.003Z INFO [email] Email sent to user@example.com
+2024-04-12T16:47:55.003Z WARN [shutdown] Cache miss: key='session_data'
+2024-04-12T16:49:42.003Z WARN [cache] Memory usage: 75%
+2024-04-12T16:50:25.003Z WARN [backup] Daily backup job started.
+2024-04-12T16:51:53.003Z DEBUG [backup] User login successful: user_id=1234
+2024-04-12T16:52:47.003Z INFO [database] Server stopped successfully.
+2024-04-12T16:53:37.003Z ERROR [shutdown] Server shutdown initiated.
+2024-04-12T16:53:53.003Z WARN [database] Backup failed: insufficient disk space
+2024-04-12T16:55:47.003Z WARN [server] Daily backup job started.
+2024-04-12T16:56:06.003Z WARN [security] Daily backup job started.
+2024-04-12T16:57:00.003Z DEBUG [auth] User login successful: user_id=1234
+2024-04-12T16:57:46.003Z DEBUG [http] Server started successfully.
+2024-04-12T16:59:07.003Z WARN [database] Server shutdown initiated.
+2024-04-12T17:00:41.003Z INFO [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:01:38.003Z ERROR [cron] GET /api/status - 200 OK
+2024-04-12T17:02:15.003Z WARN [server] Memory usage: 75%
+2024-04-12T17:02:20.003Z WARN [backup] Daily report generation completed.
+2024-04-12T17:04:09.003Z WARN [http] Daily backup job started.
+2024-04-12T17:05:26.003Z ERROR [cron] Server shutdown initiated.
+2024-04-12T17:07:14.003Z ERROR [auth] Daily report generation completed.
+2024-04-12T17:07:34.003Z WARN [http] Server started successfully.
+2024-04-12T17:08:25.003Z DEBUG [http] Cache miss: key='session_data'
+2024-04-12T17:09:38.003Z WARN [backup] GET /api/status - 200 OK
+2024-04-12T17:09:41.003Z INFO [security] Server stopped successfully.
+2024-04-12T17:11:17.003Z INFO [database] User login successful: user_id=1234
+2024-04-12T17:11:18.003Z INFO [cache] GET /api/status - 200 OK
+2024-04-12T17:12:08.003Z INFO [shutdown] Failed to connect to database: timeout
+2024-04-12T17:13:02.003Z INFO [cache] Email sent to user@example.com
+2024-04-12T17:13:32.003Z ERROR [backup] Failed to connect to database: timeout
+2024-04-12T17:15:03.003Z WARN [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T17:16:15.003Z INFO [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T17:17:40.003Z WARN [cache] Daily report generation completed.
+2024-04-12T17:18:27.003Z WARN [database] GET /api/status - 200 OK
+2024-04-12T17:20:26.003Z WARN [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:20:41.003Z INFO [cron] User login successful: user_id=1234
+2024-04-12T17:22:16.003Z DEBUG [database] Daily report generation completed.
+2024-04-12T17:23:24.003Z INFO [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T17:23:49.003Z WARN [security] Cache miss: key='session_data'
+2024-04-12T17:23:58.003Z DEBUG [security] POST /api/upload - 500 Internal Server Error
+2024-04-12T17:24:53.003Z DEBUG [cron] Daily report generation completed.
+2024-04-12T17:25:52.003Z INFO [server] Server shutdown initiated.
+2024-04-12T17:26:11.003Z ERROR [email] Memory usage: 75%
+2024-04-12T17:26:57.003Z DEBUG [backup] Email sent to user@example.com
+2024-04-12T17:28:01.003Z WARN [shutdown] Cache miss: key='session_data'
+2024-04-12T17:29:27.003Z ERROR [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:30:06.003Z ERROR [cron] Daily report generation completed.
+2024-04-12T17:32:01.003Z WARN [security] Email sent to user@example.com
+2024-04-12T17:32:31.003Z WARN [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:32:46.003Z WARN [shutdown] Backup failed: insufficient disk space
+2024-04-12T17:33:06.003Z DEBUG [security] User login successful: user_id=1234
+2024-04-12T17:34:43.003Z DEBUG [cache] Server shutdown initiated.
+2024-04-12T17:35:27.003Z INFO [backup] Email sent to user@example.com
+2024-04-12T17:36:11.003Z DEBUG [cron] Cache miss: key='session_data'
+2024-04-12T17:36:32.003Z INFO [auth] Server started successfully.
+2024-04-12T17:37:38.003Z INFO [email] Email sent to user@example.com
+2024-04-12T17:38:45.003Z DEBUG [security] Daily report generation completed.
+2024-04-12T17:39:38.003Z ERROR [database] Daily report generation completed.
+2024-04-12T17:39:39.003Z DEBUG [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:41:06.003Z WARN [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:43:01.003Z INFO [backup] Daily report generation completed.
+2024-04-12T17:44:19.003Z WARN [database] Cache miss: key='session_data'
+2024-04-12T17:46:19.003Z ERROR [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T17:47:29.003Z DEBUG [cron] Server stopped successfully.
+2024-04-12T17:48:35.003Z WARN [shutdown] Server started successfully.
+2024-04-12T17:49:48.003Z DEBUG [cache] Memory usage: 75%
+2024-04-12T17:51:36.003Z WARN [server] Backup failed: insufficient disk space
+2024-04-12T17:53:18.003Z DEBUG [database] GET /api/status - 200 OK
+2024-04-12T17:55:05.003Z WARN [backup] Email sent to user@example.com
+2024-04-12T17:56:25.003Z ERROR [server] User login successful: user_id=1234
+2024-04-12T17:57:21.003Z ERROR [auth] Daily report generation completed.
+2024-04-12T17:58:40.003Z WARN [database] Server started successfully.
+2024-04-12T18:00:35.003Z INFO [http] Server started successfully.
+2024-04-12T18:02:27.003Z WARN [auth] User login successful: user_id=1234
+2024-04-12T18:04:07.003Z INFO [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T18:06:00.003Z DEBUG [backup] Failed to connect to database: timeout
+2024-04-12T18:07:34.003Z ERROR [auth] Backup failed: insufficient disk space
+2024-04-12T18:09:01.003Z DEBUG [cron] Server shutdown initiated.
+2024-04-12T18:09:09.003Z ERROR [server] Failed to connect to database: timeout
+2024-04-12T18:10:27.003Z WARN [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T18:10:46.003Z DEBUG [cron] Cache miss: key='session_data'
+2024-04-12T18:10:58.003Z INFO [cron] Server started successfully.
+2024-04-12T18:12:55.003Z DEBUG [security] Backup failed: insufficient disk space
+2024-04-12T18:13:42.003Z DEBUG [backup] Failed to connect to database: timeout
+2024-04-12T18:14:31.003Z DEBUG [shutdown] Failed to connect to database: timeout
+2024-04-12T18:15:26.003Z WARN [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T18:15:38.003Z DEBUG [http] Backup failed: insufficient disk space
+2024-04-12T18:17:00.003Z INFO [shutdown] Backup failed: insufficient disk space
+2024-04-12T18:18:12.003Z DEBUG [email] User login successful: user_id=1234
+2024-04-12T18:19:21.003Z WARN [server] GET /api/status - 200 OK
+2024-04-12T18:20:53.003Z INFO [auth] Server stopped successfully.
+2024-04-12T18:22:23.003Z INFO [database] Cache miss: key='session_data'
+2024-04-12T18:24:09.003Z INFO [cron] Backup failed: insufficient disk space
+2024-04-12T18:25:28.003Z INFO [server] POST /api/upload - 500 Internal Server Error
+2024-04-12T18:26:13.003Z ERROR [auth] Memory usage: 75%
+2024-04-12T18:26:17.003Z WARN [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T18:28:13.003Z WARN [cron] GET /api/status - 200 OK
+2024-04-12T18:29:22.003Z INFO [shutdown] Cache miss: key='session_data'
+2024-04-12T18:31:03.003Z INFO [auth] Cache miss: key='session_data'
+2024-04-12T18:32:07.003Z WARN [auth] GET /api/status - 200 OK
+2024-04-12T18:33:49.003Z ERROR [auth] Cache miss: key='session_data'
+2024-04-12T18:35:14.003Z DEBUG [database] Server stopped successfully.
+2024-04-12T18:36:05.003Z WARN [auth] GET /api/status - 200 OK
+2024-04-12T18:36:40.003Z ERROR [server] Server shutdown initiated.
+2024-04-12T18:37:13.003Z INFO [cron] Daily backup job started.
+2024-04-12T18:37:42.003Z INFO [auth] Daily backup job started.
+2024-04-12T18:38:07.003Z ERROR [security] Memory usage: 75%
+2024-04-12T18:40:02.003Z WARN [email] Server started successfully.
+2024-04-12T18:40:39.003Z WARN [auth] Server shutdown initiated.
+2024-04-12T18:41:48.003Z WARN [database] Backup failed: insufficient disk space
+2024-04-12T18:43:19.003Z ERROR [auth] Memory usage: 75%
+2024-04-12T18:44:56.003Z WARN [email] Daily backup job started.
+2024-04-12T18:45:33.003Z WARN [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T18:45:36.003Z INFO [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T18:46:30.003Z DEBUG [database] Memory usage: 75%
+2024-04-12T18:47:15.003Z INFO [http] GET /api/status - 200 OK
+2024-04-12T18:47:54.003Z WARN [email] User login successful: user_id=1234
+2024-04-12T18:48:26.003Z DEBUG [security] Memory usage: 75%
+2024-04-12T18:48:59.003Z DEBUG [server] Cache miss: key='session_data'
+2024-04-12T18:49:58.003Z ERROR [backup] Cache miss: key='session_data'
+2024-04-12T18:49:59.003Z WARN [shutdown] Memory usage: 75%
+2024-04-12T18:50:18.003Z WARN [cache] Server started successfully.
+2024-04-12T18:51:49.003Z ERROR [security] Daily backup job started.
+2024-04-12T18:52:48.003Z WARN [cron] Cache miss: key='session_data'
+2024-04-12T18:54:44.003Z ERROR [database] Server shutdown initiated.
+2024-04-12T18:55:26.003Z ERROR [server] Memory usage: 75%
+2024-04-12T18:57:14.003Z ERROR [security] POST /api/upload - 500 Internal Server Error
+2024-04-12T18:58:52.003Z INFO [cache] Server started successfully.
+2024-04-12T18:58:59.003Z INFO [http] Memory usage: 75%
+2024-04-12T18:59:48.003Z INFO [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T19:00:49.003Z INFO [security] Server started successfully.
+2024-04-12T19:02:44.003Z DEBUG [database] Server stopped successfully.
+2024-04-12T19:02:59.003Z INFO [security] Daily report generation completed.
+2024-04-12T19:03:35.003Z ERROR [http] Memory usage: 75%
+2024-04-12T19:03:48.003Z ERROR [cron] Backup failed: insufficient disk space
+2024-04-12T19:04:35.003Z INFO [shutdown] Memory usage: 75%
+2024-04-12T19:06:25.003Z WARN [cron] Cache miss: key='session_data'
+2024-04-12T19:08:07.003Z DEBUG [auth] User login successful: user_id=1234
+2024-04-12T19:09:07.003Z ERROR [cache] Server started successfully.
+2024-04-12T19:10:48.003Z WARN [email] Server stopped successfully.
+2024-04-12T19:11:40.003Z DEBUG [cron] Memory usage: 75%
+2024-04-12T19:12:54.003Z DEBUG [server] Memory usage: 75%
+2024-04-12T19:14:35.003Z ERROR [database] Server started successfully.
+2024-04-12T19:15:04.003Z ERROR [server] Server shutdown initiated.
+2024-04-12T19:16:32.003Z DEBUG [cache] GET /api/status - 200 OK
+2024-04-12T19:17:49.003Z WARN [database] Server shutdown initiated.
+2024-04-12T19:18:31.003Z INFO [backup] Server shutdown initiated.
+2024-04-12T19:19:39.003Z DEBUG [security] Server shutdown initiated.
+2024-04-12T19:19:50.003Z INFO [backup] Daily report generation completed.
+2024-04-12T19:21:17.003Z ERROR [cron] Server stopped successfully.
+2024-04-12T19:22:01.003Z WARN [database] Server started successfully.
+2024-04-12T19:23:31.003Z ERROR [server] Server shutdown initiated.
+2024-04-12T19:23:47.003Z INFO [security] User login successful: user_id=1234
+2024-04-12T19:25:19.003Z ERROR [auth] Server shutdown initiated.
+2024-04-12T19:25:37.003Z DEBUG [cache] Memory usage: 75%
+2024-04-12T19:27:14.003Z WARN [email] Email sent to user@example.com
+2024-04-12T19:28:57.003Z DEBUG [database] Daily backup job started.
+2024-04-12T19:30:23.003Z INFO [cron] Server shutdown initiated.
+2024-04-12T19:31:56.003Z INFO [auth] Failed to connect to database: timeout
+2024-04-12T19:33:02.003Z INFO [security] POST /api/upload - 500 Internal Server Error
+2024-04-12T19:34:20.003Z INFO [database] Server started successfully.
+2024-04-12T19:34:46.003Z INFO [database] Cache miss: key='session_data'
+2024-04-12T19:35:38.003Z INFO [http] GET /api/status - 200 OK
+2024-04-12T19:35:55.003Z INFO [cron] Server shutdown initiated.
+2024-04-12T19:37:35.003Z DEBUG [http] Email sent to user@example.com
+2024-04-12T19:37:57.003Z ERROR [shutdown] Backup failed: insufficient disk space
+2024-04-12T19:38:08.003Z WARN [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T19:38:37.003Z DEBUG [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T19:40:19.003Z DEBUG [security] Server started successfully.
+2024-04-12T19:41:21.003Z DEBUG [security] Failed to connect to database: timeout
+2024-04-12T19:41:47.003Z ERROR [cache] Cache miss: key='session_data'
+2024-04-12T19:43:30.003Z INFO [server] Server shutdown initiated.
+2024-04-12T19:44:36.003Z DEBUG [http] Server shutdown initiated.
+2024-04-12T19:45:09.003Z DEBUG [cache] Daily report generation completed.
+2024-04-12T19:47:07.003Z DEBUG [backup] Email sent to user@example.com
+2024-04-12T19:49:03.003Z INFO [auth] Daily backup job started.
+2024-04-12T19:50:39.003Z WARN [auth] Memory usage: 75%
+2024-04-12T19:51:15.003Z INFO [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T19:51:51.003Z ERROR [shutdown] User login successful: user_id=1234
+2024-04-12T19:52:48.003Z WARN [cache] Backup failed: insufficient disk space
+2024-04-12T19:54:38.003Z WARN [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T19:56:17.003Z DEBUG [cache] Server started successfully.
+2024-04-12T19:57:55.003Z DEBUG [cache] Backup failed: insufficient disk space
+2024-04-12T19:59:37.003Z DEBUG [shutdown] Email sent to user@example.com
+2024-04-12T20:00:42.003Z INFO [cache] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:01:17.003Z INFO [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:01:32.003Z INFO [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:03:14.003Z WARN [cache] Server shutdown initiated.
+2024-04-12T20:04:35.003Z WARN [http] Backup failed: insufficient disk space
+2024-04-12T20:06:03.003Z WARN [database] Daily report generation completed.
+2024-04-12T20:07:36.003Z DEBUG [database] Server started successfully.
+2024-04-12T20:08:06.003Z DEBUG [server] Backup failed: insufficient disk space
+2024-04-12T20:09:09.003Z DEBUG [security] User login successful: user_id=1234
+2024-04-12T20:09:30.003Z DEBUG [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:09:41.003Z DEBUG [security] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:09:48.003Z ERROR [cron] Cache miss: key='session_data'
+2024-04-12T20:10:26.003Z INFO [cache] Daily report generation completed.
+2024-04-12T20:10:44.003Z WARN [backup] User login successful: user_id=1234
+2024-04-12T20:11:02.003Z INFO [shutdown] Email sent to user@example.com
+2024-04-12T20:12:41.003Z DEBUG [http] User login successful: user_id=1234
+2024-04-12T20:13:57.003Z INFO [database] Server stopped successfully.
+2024-04-12T20:14:23.003Z DEBUG [cache] Server shutdown initiated.
+2024-04-12T20:15:13.003Z DEBUG [auth] Daily backup job started.
+2024-04-12T20:16:29.003Z DEBUG [shutdown] Server started successfully.
+2024-04-12T20:18:25.003Z INFO [server] Server shutdown initiated.
+2024-04-12T20:18:29.003Z INFO [shutdown] Daily backup job started.
+2024-04-12T20:20:19.003Z ERROR [server] Email sent to user@example.com
+2024-04-12T20:21:37.003Z WARN [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T20:23:21.003Z DEBUG [server] GET /api/status - 200 OK
+2024-04-12T20:23:27.003Z ERROR [security] User login successful: user_id=1234
+2024-04-12T20:24:02.003Z ERROR [cron] Email sent to user@example.com
+2024-04-12T20:25:54.003Z ERROR [database] Backup failed: insufficient disk space
+2024-04-12T20:27:25.003Z INFO [server] Memory usage: 75%
+2024-04-12T20:28:06.003Z WARN [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:29:04.003Z INFO [shutdown] Daily backup job started.
+2024-04-12T20:30:24.003Z INFO [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T20:30:40.003Z DEBUG [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:32:08.003Z INFO [http] User login successful: user_id=1234
+2024-04-12T20:33:53.003Z INFO [http] Memory usage: 75%
+2024-04-12T20:34:57.003Z INFO [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:36:14.003Z ERROR [cron] GET /api/status - 200 OK
+2024-04-12T20:37:00.003Z ERROR [security] Backup failed: insufficient disk space
+2024-04-12T20:37:13.003Z INFO [email] GET /api/status - 200 OK
+2024-04-12T20:37:30.003Z ERROR [email] Daily backup job started.
+2024-04-12T20:39:17.003Z DEBUG [backup] Memory usage: 75%
+2024-04-12T20:40:28.003Z DEBUG [security] Failed to connect to database: timeout
+2024-04-12T20:41:54.003Z WARN [shutdown] Server started successfully.
+2024-04-12T20:42:08.003Z INFO [auth] Daily report generation completed.
+2024-04-12T20:42:44.003Z ERROR [security] GET /api/status - 200 OK
+2024-04-12T20:44:37.003Z ERROR [backup] Failed to connect to database: timeout
+2024-04-12T20:44:53.003Z DEBUG [server] Server stopped successfully.
+2024-04-12T20:44:54.003Z WARN [auth] Memory usage: 75%
+2024-04-12T20:45:04.003Z ERROR [shutdown] GET /api/status - 200 OK
+2024-04-12T20:46:27.003Z INFO [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:46:34.003Z WARN [http] Daily report generation completed.
+2024-04-12T20:47:03.003Z WARN [security] GET /api/status - 200 OK
+2024-04-12T20:47:10.003Z ERROR [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:48:18.003Z WARN [security] Email sent to user@example.com
+2024-04-12T20:48:48.003Z WARN [database] Failed to connect to database: timeout
+2024-04-12T20:49:08.003Z ERROR [server] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T20:49:19.003Z DEBUG [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:51:18.003Z WARN [shutdown] Memory usage: 75%
+2024-04-12T20:51:32.003Z ERROR [security] Backup failed: insufficient disk space
+2024-04-12T20:51:35.003Z WARN [cache] Server started successfully.
+2024-04-12T20:52:08.003Z INFO [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T20:52:43.003Z DEBUG [auth] Cache miss: key='session_data'
+2024-04-12T20:53:08.003Z DEBUG [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T20:54:17.003Z INFO [backup] Email sent to user@example.com
+2024-04-12T20:56:03.003Z WARN [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T20:57:21.003Z DEBUG [server] Email sent to user@example.com
+2024-04-12T20:59:11.003Z INFO [auth] Daily report generation completed.
+2024-04-12T21:00:14.003Z DEBUG [auth] POST /api/upload - 500 Internal Server Error
+2024-04-12T21:00:30.003Z ERROR [cron] Failed to connect to database: timeout
+2024-04-12T21:01:51.003Z DEBUG [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T21:02:47.003Z DEBUG [backup] GET /api/status - 200 OK
+2024-04-12T21:04:24.003Z WARN [shutdown] Cache miss: key='session_data'
+2024-04-12T21:04:25.003Z WARN [cache] Daily report generation completed.
+2024-04-12T21:06:13.003Z DEBUG [auth] Backup failed: insufficient disk space
+2024-04-12T21:07:09.003Z WARN [cron] Server started successfully.
+2024-04-12T21:08:37.003Z DEBUG [email] Daily report generation completed.
+2024-04-12T21:10:25.003Z WARN [http] GET /api/status - 200 OK
+2024-04-12T21:11:02.003Z INFO [cron] Daily report generation completed.
+2024-04-12T21:11:41.003Z WARN [database] Email sent to user@example.com
+2024-04-12T21:11:47.003Z DEBUG [email] Server stopped successfully.
+2024-04-12T21:12:38.003Z ERROR [email] Server shutdown initiated.
+2024-04-12T21:14:30.003Z INFO [email] Daily report generation completed.
+2024-04-12T21:16:24.003Z ERROR [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T21:18:24.003Z WARN [backup] Failed to connect to database: timeout
+2024-04-12T21:19:32.003Z ERROR [cache] Daily report generation completed.
+2024-04-12T21:19:38.003Z INFO [http] GET /api/status - 200 OK
+2024-04-12T21:20:26.003Z DEBUG [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T21:22:24.003Z DEBUG [shutdown] Daily backup job started.
+2024-04-12T21:23:18.003Z DEBUG [shutdown] GET /api/status - 200 OK
+2024-04-12T21:23:59.003Z WARN [auth] Daily backup job started.
+2024-04-12T21:24:48.003Z DEBUG [http] Server started successfully.
+2024-04-12T21:25:21.003Z INFO [shutdown] GET /api/status - 200 OK
+2024-04-12T21:26:56.003Z WARN [backup] Server started successfully.
+2024-04-12T21:28:17.003Z INFO [cron] Backup failed: insufficient disk space
+2024-04-12T21:28:43.003Z ERROR [backup] Failed to connect to database: timeout
+2024-04-12T21:29:51.003Z ERROR [cache] Email sent to user@example.com
+2024-04-12T21:29:55.003Z INFO [shutdown] Failed to connect to database: timeout
+2024-04-12T21:31:47.003Z ERROR [http] User login successful: user_id=1234
+2024-04-12T21:33:22.003Z WARN [server] Daily backup job started.
+2024-04-12T21:34:05.003Z DEBUG [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T21:34:12.003Z INFO [database] Failed to connect to database: timeout
+2024-04-12T21:35:28.003Z WARN [cache] Daily report generation completed.
+2024-04-12T21:35:47.003Z DEBUG [cron] Cache miss: key='session_data'
+2024-04-12T21:36:12.003Z DEBUG [cron] Server stopped successfully.
+2024-04-12T21:37:45.003Z ERROR [cron] Daily report generation completed.
+2024-04-12T21:38:55.003Z WARN [auth] Server started successfully.
+2024-04-12T21:39:08.003Z WARN [auth] Memory usage: 75%
+2024-04-12T21:41:00.003Z WARN [auth] Server shutdown initiated.
+2024-04-12T21:41:02.003Z WARN [auth] User login successful: user_id=1234
+2024-04-12T21:41:44.003Z ERROR [database] Cache miss: key='session_data'
+2024-04-12T21:41:57.003Z WARN [security] Backup failed: insufficient disk space
+2024-04-12T21:42:20.003Z DEBUG [http] Memory usage: 75%
+2024-04-12T21:42:26.003Z INFO [shutdown] Backup failed: insufficient disk space
+2024-04-12T21:43:08.003Z ERROR [auth] Server shutdown initiated.
+2024-04-12T21:45:05.003Z INFO [cron] Server started successfully.
+2024-04-12T21:45:54.003Z ERROR [cron] User login successful: user_id=1234
+2024-04-12T21:46:41.003Z DEBUG [backup] Daily report generation completed.
+2024-04-12T21:47:53.003Z INFO [cache] Cache miss: key='session_data'
+2024-04-12T21:48:19.003Z WARN [cache] Email sent to user@example.com
+2024-04-12T21:49:48.003Z ERROR [auth] GET /api/status - 200 OK
+2024-04-12T21:51:40.003Z ERROR [security] User login successful: user_id=1234
+2024-04-12T21:53:10.003Z INFO [auth] Server stopped successfully.
+2024-04-12T21:53:23.003Z INFO [shutdown] Cache miss: key='session_data'
+2024-04-12T21:53:49.003Z ERROR [backup] Daily report generation completed.
+2024-04-12T21:55:36.003Z INFO [database] Memory usage: 75%
+2024-04-12T21:57:20.003Z INFO [auth] Daily backup job started.
+2024-04-12T21:58:36.003Z WARN [shutdown] Server shutdown initiated.
+2024-04-12T21:58:51.003Z WARN [http] POST /api/upload - 500 Internal Server Error
+2024-04-12T21:58:55.003Z WARN [security] Server stopped successfully.
+2024-04-12T21:58:57.003Z INFO [cron] Memory usage: 75%
+2024-04-12T21:59:41.003Z WARN [server] Memory usage: 75%
+2024-04-12T22:00:08.003Z WARN [shutdown] Server shutdown initiated.
+2024-04-12T22:01:51.003Z ERROR [security] Daily backup job started.
+2024-04-12T22:02:49.003Z WARN [email] User login successful: user_id=1234
+2024-04-12T22:03:58.003Z INFO [shutdown] User login successful: user_id=1234
+2024-04-12T22:04:23.003Z WARN [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:04:33.003Z DEBUG [http] Memory usage: 75%
+2024-04-12T22:05:34.003Z ERROR [email] GET /api/status - 200 OK
+2024-04-12T22:06:47.003Z DEBUG [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:08:47.003Z ERROR [security] Server shutdown initiated.
+2024-04-12T22:09:20.003Z DEBUG [server] User login successful: user_id=1234
+2024-04-12T22:10:05.003Z INFO [backup] Failed to connect to database: timeout
+2024-04-12T22:10:48.003Z WARN [cache] Memory usage: 75%
+2024-04-12T22:12:00.003Z ERROR [shutdown] Server started successfully.
+2024-04-12T22:13:08.003Z INFO [backup] Memory usage: 75%
+2024-04-12T22:14:32.003Z DEBUG [backup] Server started successfully.
+2024-04-12T22:16:30.003Z WARN [shutdown] User login successful: user_id=1234
+2024-04-12T22:18:06.003Z DEBUG [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:19:56.003Z WARN [server] Daily report generation completed.
+2024-04-12T22:21:40.003Z ERROR [security] Cache miss: key='session_data'
+2024-04-12T22:23:32.003Z ERROR [email] User login successful: user_id=1234
+2024-04-12T22:25:07.003Z WARN [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:27:05.003Z ERROR [auth] Memory usage: 75%
+2024-04-12T22:27:44.003Z DEBUG [security] Failed to connect to database: timeout
+2024-04-12T22:28:14.003Z ERROR [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:29:19.003Z DEBUG [shutdown] Cache miss: key='session_data'
+2024-04-12T22:30:19.003Z INFO [shutdown] Daily report generation completed.
+2024-04-12T22:32:02.003Z ERROR [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:32:10.003Z INFO [database] Daily backup job started.
+2024-04-12T22:34:05.003Z ERROR [cache] Failed to connect to database: timeout
+2024-04-12T22:35:27.003Z ERROR [shutdown] Server started successfully.
+2024-04-12T22:35:37.003Z WARN [database] Backup failed: insufficient disk space
+2024-04-12T22:37:06.003Z INFO [auth] User login successful: user_id=1234
+2024-04-12T22:37:50.003Z ERROR [http] Daily report generation completed.
+2024-04-12T22:38:13.003Z ERROR [database] Memory usage: 75%
+2024-04-12T22:38:50.003Z ERROR [shutdown] GET /api/status - 200 OK
+2024-04-12T22:39:50.003Z ERROR [http] Cache miss: key='session_data'
+2024-04-12T22:41:05.003Z DEBUG [server] Cache miss: key='session_data'
+2024-04-12T22:42:20.003Z ERROR [auth] Failed to connect to database: timeout
+2024-04-12T22:43:13.003Z DEBUG [backup] Memory usage: 75%
+2024-04-12T22:44:09.003Z INFO [email] Server stopped successfully.
+2024-04-12T22:44:43.003Z WARN [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T22:45:25.003Z WARN [backup] Cache miss: key='session_data'
+2024-04-12T22:47:17.003Z DEBUG [server] POST /api/upload - 500 Internal Server Error
+2024-04-12T22:47:32.003Z DEBUG [auth] Server shutdown initiated.
+2024-04-12T22:48:46.003Z WARN [email] GET /api/status - 200 OK
+2024-04-12T22:48:58.003Z ERROR [http] Failed to connect to database: timeout
+2024-04-12T22:49:56.003Z INFO [security] Cache miss: key='session_data'
+2024-04-12T22:50:51.003Z DEBUG [database] GET /api/status - 200 OK
+2024-04-12T22:52:19.003Z INFO [backup] Failed to connect to database: timeout
+2024-04-12T22:52:26.003Z DEBUG [http] GET /api/status - 200 OK
+2024-04-12T22:52:31.003Z INFO [server] Daily backup job started.
+2024-04-12T22:52:51.003Z ERROR [cache] Memory usage: 75%
+2024-04-12T22:54:06.003Z ERROR [http] Daily report generation completed.
+2024-04-12T22:55:04.003Z DEBUG [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:55:25.003Z INFO [email] Email sent to user@example.com
+2024-04-12T22:57:15.003Z WARN [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T22:57:17.003Z WARN [cron] Backup failed: insufficient disk space
+2024-04-12T22:57:49.003Z ERROR [auth] Server started successfully.
+2024-04-12T22:59:08.003Z DEBUG [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:59:33.003Z ERROR [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T22:59:58.003Z DEBUG [cache] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:01:42.003Z WARN [shutdown] Memory usage: 75%
+2024-04-12T23:01:59.003Z ERROR [http] Backup failed: insufficient disk space
+2024-04-12T23:03:23.003Z INFO [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:03:33.003Z INFO [email] Server shutdown initiated.
+2024-04-12T23:03:54.003Z WARN [cron] Server shutdown initiated.
+2024-04-12T23:04:56.003Z DEBUG [auth] Failed to connect to database: timeout
+2024-04-12T23:05:40.003Z ERROR [cache] Server shutdown initiated.
+2024-04-12T23:07:14.003Z ERROR [security] Server started successfully.
+2024-04-12T23:07:17.003Z DEBUG [cron] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:08:44.003Z WARN [security] Memory usage: 75%
+2024-04-12T23:10:38.003Z ERROR [cache] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:12:34.003Z WARN [backup] Server stopped successfully.
+2024-04-12T23:13:07.003Z WARN [shutdown] Daily report generation completed.
+2024-04-12T23:15:00.003Z DEBUG [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:15:36.003Z DEBUG [backup] Memory usage: 75%
+2024-04-12T23:16:19.003Z ERROR [database] Server stopped successfully.
+2024-04-12T23:18:01.003Z ERROR [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:20:01.003Z WARN [backup] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:21:05.003Z ERROR [auth] User login successful: user_id=1234
+2024-04-12T23:21:59.003Z INFO [security] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:22:31.003Z WARN [email] Daily report generation completed.
+2024-04-12T23:23:11.003Z ERROR [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:24:22.003Z DEBUG [cron] GET /api/status - 200 OK
+2024-04-12T23:24:38.003Z ERROR [backup] Daily report generation completed.
+2024-04-12T23:25:44.003Z WARN [shutdown] Email sent to user@example.com
+2024-04-12T23:27:11.003Z WARN [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:29:10.003Z DEBUG [auth] Server stopped successfully.
+2024-04-12T23:30:44.003Z ERROR [auth] Memory usage: 75%
+2024-04-12T23:32:35.003Z INFO [http] Server started successfully.
+2024-04-12T23:33:33.003Z WARN [cache] GET /api/status - 200 OK
+2024-04-12T23:35:15.003Z ERROR [cache] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:35:27.003Z WARN [security] Cache miss: key='session_data'
+2024-04-12T23:36:04.003Z INFO [auth] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:36:10.003Z INFO [http] User login successful: user_id=1234
+2024-04-12T23:36:58.003Z INFO [http] Email sent to user@example.com
+2024-04-12T23:38:34.003Z WARN [server] Backup failed: insufficient disk space
+2024-04-12T23:40:25.003Z ERROR [email] User login successful: user_id=1234
+2024-04-12T23:40:27.003Z ERROR [database] Daily report generation completed.
+2024-04-12T23:40:32.003Z WARN [database] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:40:42.003Z INFO [cache] Memory usage: 75%
+2024-04-12T23:42:19.003Z INFO [backup] Server shutdown initiated.
+2024-04-12T23:42:23.003Z WARN [auth] Server stopped successfully.
+2024-04-12T23:42:34.003Z ERROR [backup] Daily backup job started.
+2024-04-12T23:43:28.003Z ERROR [security] Memory usage: 75%
+2024-04-12T23:44:09.003Z WARN [email] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:44:50.003Z INFO [auth] POST /api/upload - 500 Internal Server Error
+2024-04-12T23:45:19.003Z WARN [email] Memory usage: 75%
+2024-04-12T23:46:46.003Z WARN [email] Email sent to user@example.com
+2024-04-12T23:48:34.003Z ERROR [server] Memory usage: 75%
+2024-04-12T23:49:25.003Z INFO [http] Server started successfully.
+2024-04-12T23:50:47.003Z WARN [cron] User login successful: user_id=1234
+2024-04-12T23:51:28.003Z ERROR [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:53:04.003Z WARN [cache] Daily backup job started.
+2024-04-12T23:54:12.003Z DEBUG [email] Server shutdown initiated.
+2024-04-12T23:54:54.003Z ERROR [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-12T23:55:28.003Z INFO [cron] User login successful: user_id=1234
+2024-04-12T23:57:23.003Z ERROR [email] Memory usage: 75%
+2024-04-12T23:58:31.003Z ERROR [server] User login successful: user_id=1234
+2024-04-12T23:59:08.003Z ERROR [cron] Memory usage: 75%
+2024-04-13T00:00:22.003Z DEBUG [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T00:01:45.003Z WARN [shutdown] GET /api/status - 200 OK
+2024-04-13T00:02:31.003Z WARN [cron] Server started successfully.
+2024-04-13T00:02:54.003Z ERROR [backup] Cache miss: key='session_data'
+2024-04-13T00:03:29.003Z ERROR [cron] Daily report generation completed.
+2024-04-13T00:05:28.003Z INFO [database] Failed to connect to database: timeout
+2024-04-13T00:06:01.003Z WARN [http] Memory usage: 75%
+2024-04-13T00:06:18.003Z WARN [cron] GET /api/status - 200 OK
+2024-04-13T00:06:47.003Z INFO [auth] Failed to connect to database: timeout
+2024-04-13T00:08:05.003Z DEBUG [email] User login successful: user_id=1234
+2024-04-13T00:08:19.003Z INFO [database] Failed to connect to database: timeout
+2024-04-13T00:08:57.003Z ERROR [database] Email sent to user@example.com
+2024-04-13T00:10:12.003Z DEBUG [server] Server started successfully.
+2024-04-13T00:10:59.003Z DEBUG [database] Backup failed: insufficient disk space
+2024-04-13T00:12:40.003Z WARN [server] Backup failed: insufficient disk space
+2024-04-13T00:13:32.003Z INFO [http] Memory usage: 75%
+2024-04-13T00:15:06.003Z INFO [cron] POST /api/upload - 500 Internal Server Error
+2024-04-13T00:15:57.003Z INFO [shutdown] POST /api/upload - 500 Internal Server Error
+2024-04-13T00:16:21.003Z ERROR [email] GET /api/status - 200 OK
+2024-04-13T00:18:04.003Z ERROR [shutdown] User login successful: user_id=1234
+2024-04-13T00:18:59.003Z INFO [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T00:19:41.003Z ERROR [server] Email sent to user@example.com
+2024-04-13T00:20:38.003Z WARN [email] Server shutdown initiated.
+2024-04-13T00:22:08.003Z ERROR [cron] Email sent to user@example.com
+2024-04-13T00:23:20.003Z INFO [cache] Server started successfully.
+2024-04-13T00:24:37.003Z WARN [http] Email sent to user@example.com
+2024-04-13T00:26:16.003Z DEBUG [cron] User login successful: user_id=1234
+2024-04-13T00:26:37.003Z ERROR [cache] POST /api/upload - 500 Internal Server Error
+2024-04-13T00:27:08.003Z INFO [http] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T00:27:47.003Z DEBUG [cron] Email sent to user@example.com
+2024-04-13T00:29:21.003Z WARN [server] Daily backup job started.
+2024-04-13T00:30:39.003Z ERROR [backup] Backup failed: insufficient disk space
+2024-04-13T00:31:49.003Z ERROR [security] Failed to connect to database: timeout
+2024-04-13T00:32:52.003Z ERROR [cache] Server shutdown initiated.
+2024-04-13T00:33:57.003Z WARN [backup] User login successful: user_id=1234
+2024-04-13T00:35:37.003Z WARN [cache] POST /api/upload - 500 Internal Server Error
+2024-04-13T00:35:56.003Z WARN [email] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T00:36:50.003Z WARN [database] Server stopped successfully.
+2024-04-13T00:38:16.003Z ERROR [email] Daily report generation completed.
+2024-04-13T00:40:00.003Z WARN [cache] Daily report generation completed.
+2024-04-13T00:41:29.003Z DEBUG [email] Memory usage: 75%
+2024-04-13T00:43:12.003Z INFO [shutdown] Cache miss: key='session_data'
+2024-04-13T00:43:50.003Z DEBUG [database] Failed to connect to database: timeout
+2024-04-13T00:45:41.003Z WARN [backup] Failed to connect to database: timeout
+2024-04-13T00:45:45.003Z INFO [auth] Server started successfully.
+2024-04-13T00:47:07.003Z DEBUG [email] Server stopped successfully.
+2024-04-13T00:47:09.003Z WARN [security] GET /api/status - 200 OK
+2024-04-13T00:47:20.003Z WARN [server] Failed to connect to database: timeout
+2024-04-13T00:48:26.003Z INFO [server] GET /api/status - 200 OK
+2024-04-13T00:48:37.003Z ERROR [http] GET /api/status - 200 OK
+2024-04-13T00:49:27.003Z INFO [server] Server stopped successfully.
+2024-04-13T00:50:06.003Z DEBUG [server] Daily report generation completed.
+2024-04-13T00:50:47.003Z DEBUG [backup] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T00:51:17.003Z WARN [cron] Server stopped successfully.
+2024-04-13T00:52:28.003Z INFO [database] Server shutdown initiated.
+2024-04-13T00:53:14.003Z INFO [auth] Server stopped successfully.
+2024-04-13T00:54:38.003Z ERROR [email] Server started successfully.
+2024-04-13T00:55:07.003Z DEBUG [shutdown] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T00:56:26.003Z INFO [shutdown] Email sent to user@example.com
+2024-04-13T00:58:09.003Z DEBUG [shutdown] User login successful: user_id=1234
+2024-04-13T00:58:41.003Z INFO [email] User login successful: user_id=1234
+2024-04-13T01:00:17.003Z WARN [cron] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T01:00:49.003Z DEBUG [http] GET /api/status - 200 OK
+2024-04-13T01:00:58.003Z INFO [database] Daily report generation completed.
+2024-04-13T01:01:37.003Z INFO [auth] Server shutdown initiated.
+2024-04-13T01:03:18.003Z DEBUG [database] Suspicious login attempt detected from IP 192.168.1.10
+2024-04-13T01:03:52.003Z INFO [auth] Server started successfully.
+2024-04-13T01:05:15.003Z DEBUG [cache] Email sent to user@example.com
+2024-04-13T01:07:09.003Z WARN [cron] Daily backup job started.
+2024-04-13T01:08:29.003Z ERROR [cache] Cache miss: key='session_data'
+2024-04-13T01:09:50.003Z INFO [http] Email sent to user@example.com
